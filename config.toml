@@ -1,0 +1,14 @@
+baseurl = "http://emunix.org/"
+languageCode = "ru"
+title = "Emunix"
+disqusShortname = "emunix"
+
+[params]
+    # my theme is angels-ladder
+    copyright = "Copyright (c) 2011-2015, Борис Тимофеев."
+    twitter = "https://twitter.com/btimofeev"
+    github = "https://github.com/btimofeev"
+    # subtitle = "Linux, эмуляция, программирование."
+    # facebook = "https://facebook.com/foobar"
+    # profile = "/images/profile.png"
+    analytics = "UA-28744527-1"
