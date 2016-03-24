@@ -2,7 +2,7 @@
 title = "Монтируем образ диска через FuseISO"
 date = "2011-12-08"
 slug = "mount-the-disk-image-via-fuseiso"
-tags = [ "linux", "cd" ]
+tags = [ "linux", "cli", "cd" ]
 description = "Монтируем образ диска через FuseISO"
 +++
 

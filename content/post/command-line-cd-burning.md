@@ -2,7 +2,7 @@
 title = "Запись CD/DVD дисков из консоли"
 date = "2012-12-01"
 slug = "command-line-cd-burning"
-tags = [ "linux", "cd" ]
+tags = [ "linux", "cli", "cd" ]
 description = "Запись cd/dvd из консоли"
 +++
 
