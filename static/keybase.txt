@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/btimofeev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://emunix.org
+  * I am btimofeev (https://keybase.io/btimofeev) on keybase.
+  * I have a public key with fingerprint 85B4 2F6C CBCF C12D 788C  709C 2748 4A34 35E3 2C2A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01017d8b58c536db1e19fbdf159af89b5ccebc45a90c3999a45e2d9b8b17fef2f5ac0a",
+            "fingerprint": "85b42f6ccbcfc12d788c709c27484a3435e32c2a",
+            "host": "keybase.io",
+            "key_id": "27484a3435e32c2a",
+            "kid": "01017d8b58c536db1e19fbdf159af89b5ccebc45a90c3999a45e2d9b8b17fef2f5ac0a",
+            "uid": "d45f341bcac4449368bba2648c26f419",
+            "username": "btimofeev"
+        },
+        "service": {
+            "hostname": "emunix.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481633371,
+    "expire_in": 157680000,
+    "prev": "9a2256192d9ade5bb323f03863aaae90c24ea51ab58cbb0ad3a03f8c09217ac2",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkltIVEEYx8+qJS4YUhCRW9JUWLrFmZkzZ8/ZCjKkwoiCojKqZWbOnO3Q7jnb
+7qqJdIEuENmFDIqiiMpuFITQxUChIGrxJQQzrIcgUqMLGUaR3eaIvfXYvAzz8fv/
+v//3MceK85W8QPnyGo28DlcEut4yZcOqj6kmwDyrEUSbwDYxeomEJTLZ2DbHAlGg
+QhVGLIMRgxOsWwwKaNrMsiExqW2YjHAuGNcINVWOTdOkGhHIMpnBYMQWNrIJ5SoF
+YWA7blykU2nHzUpbgzAN2TrnjNscIitiGDyimhxFNEOjWMNEYMSRL9zqZXyFDMdo
+Rsx3PFmTj9hovH/w/zl33aidpREba5BxyjVNM7FuMEaRrhkc6bYGTR/MiLRLk0LS
+LOskPVuIerAzDGS53uHC36w/yhgiknWus2O+l45LaSrtZT3uJWR9azabivqybGPK
+5xoEi405xJjjWnKLUlAv0hnHc0EUSpLLbhKFmgF1jHEEhoHYkXLSIub4BInohiqP
+30YmigKTIkR0aKJ1lkktQRjDCNsqNnRMKRVyIUgTlEDqL48xlVqYqtg2uGoiGKEc
+AX+o7a4HoljmpHHpmXHiLs3WpQXYGTwYCBUogTxl/Lg8/38pwaKSv58u/LTwZwko
+u5FsXjiib/m2iLQ27ekdt2IaChY+KxoqWHI/VPuifMW7/oct3atL2is78vkMNJIr
+XPYy1XL6c8cl5UP5yMm6mZOONny/saun7XCZsr5jdk/po8rFqfPdx+GczQ9uX5jR
+PjT52fKKhd2HLz1fHRpWAw8K8tfW7GsDqPZEcve8SYEAWbmgq7OvevzN1uHOT8/7
+Jwzsetw39U1r59TE/f1VubvBe1/jNT+aE6GevqG90z83HgncnKgmylo6z6w50H62
+tmsTPHX5fE5pvnp24OlgzdLBW8Fzdza+elL0+pr6Owd+FV+/8r3by8zddNq19igr
+35dW52b1run9crEKhY73eVMO/QE=
+=M4ip
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/btimofeev
+
+==================================================================
+
