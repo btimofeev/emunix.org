@@ -1,11 +1,11 @@
-baseurl = "http://emunix.org/"
+baseurl = "https://emunix.org/"
 languageCode = "ru"
 title = "Emunix"
 disqusShortname = "emunix"
 
 [params]
     # my theme is angels-ladder
-    copyright = "© 2011-2016, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a> (мой <a href=\"http://emunix.org/public-key.asc\">pgp-ключ</a>)."
+    copyright = "© 2011-2016, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a> (мой <a href=\"https://emunix.org/public-key.asc\">pgp-ключ</a>)."
     twitter = "https://twitter.com/btimofeev"
     github = "https://github.com/btimofeev"
     # subtitle = "Linux, эмуляция, программирование."
