@@ -47,5 +47,5 @@ description = "Запись cd/dvd из консоли"
 
 Существует ncurses-фронтенд для этих программ - [CDW](http://cdw.sourceforge.net). Позволяет в удобной форме создавать образы и записывать диски.
 
-![](http://savepic.su/988091.png)
+![Изображение программы cdw](../../images/command-line-cd-burning/cdw.png)
 
