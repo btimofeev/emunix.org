@@ -7,7 +7,7 @@ description = "Запись cd/dvd из консоли"
 +++
 
 
-### Запись образа на CD-R или CD-RW диск:
+### Запись образа на CD-R или CD-RW диск:
 `cdrecord -v -eject speed=10 dev=/dev/cdrom ~/disc.iso`
 
 Если `speed=0` программа сама выбирает подходящую скорость.
