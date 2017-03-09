@@ -39,16 +39,16 @@ chipper ЦЕЛЬ ИСХОДНИК
 OPTION BINARY
 ALIGN OFF
  
-        ld v0,28
-        ld v1,10
-        ld I,sprite
-        drw v0,v1,12
+        ld v0,28      ;(4)
+        ld v1,10      ;(5)
+        ld I,sprite   ;(6)
+        drw v0,v1,12  ;(7)
        
-loop:
-        jp loop
+loop:                 ;(9)
+        jp loop       ;(10)
        
-sprite:
-        db $......1.
+sprite:               ;(12)
+        db $......1.  ;(13)
         db $..111.1.
         db $..111.1.
         db $..1.1.1.
@@ -59,7 +59,7 @@ sprite:
         db $.1111...
         db $..111...
         db $..1.1...
-        db $..1.1...
+        db $..1.1...  ;(24)
 ```
 
 Сохраняем данный код в файл с именем **sprite.asm** и компилируем командой:
