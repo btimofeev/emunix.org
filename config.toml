@@ -5,7 +5,7 @@ disqusShortname = "emunix"
 
 [params]
     # my theme is angels-ladder
-    copyright = "© 2011-2016, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a> (мой <a href=\"https://emunix.org/public-key.asc\">pgp-ключ</a>)."
+    copyright = "© 2011-2017, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
     twitter = "https://twitter.com/btimofeev"
     github = "https://github.com/btimofeev"
     # subtitle = "Linux, эмуляция, программирование."
