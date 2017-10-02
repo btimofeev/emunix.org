@@ -13,7 +13,7 @@ description = "Русификация Zenwalk 7"
 
 Для добавления русской раскладки клавиатуры изменяем в файле */etc/X11/xorg.conf* следующую секцию:
 
-```
+```Xorg
 Section "InputDevice"
     Identifier    "Keyboard1"
     Driver    "kbd"

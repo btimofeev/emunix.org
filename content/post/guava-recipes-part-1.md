@@ -15,7 +15,7 @@ description = "Guava - простые рецепты, делающие ваш Ja
 
 Вместо:
 
-```
+```java
 /**
 * Может вернуть null в некоторых случаях ... но это
 * трудно запомнить
@@ -37,7 +37,7 @@ public static void main(String[] args) {
 
 используйте это:
 
-```
+```java
 /**
  * Явно показывает, что метод может
  * возвратить пустое (null) значение
@@ -64,7 +64,7 @@ public static void main(String[] args) {
 
 Вместо:
 
-```
+```java
 public T foo() {
     ...
     ...
@@ -78,7 +78,7 @@ public T foo() {
 
 используйте это:
 
-```
+```java
 import static com.google.common.base.Objects.firstNonNull;
 ...
 public T foo() {
@@ -92,7 +92,7 @@ public T foo() {
 
 Вместо:
 
-```
+```java
 if(str == null) {
     str = "";
 }
@@ -107,7 +107,7 @@ if(str == null || str.length() == 0) {
 ```
 используйте это:
 
-```
+```java
 import static com.google.common.base.Strings.*;
     
 str = nullToEmpty(str);
@@ -121,13 +121,13 @@ if(isNullOrEmpty(str)) {
 
 Вместо:
 
-```
+```java
 a.equals(b); // ошибка, если а == null
 ```
 
 используйте это:
 
-```
+```java
 import static com.google.common.base.Objects.equal;
 ...
 equal(a, null); // возвратит false
@@ -139,7 +139,7 @@ equal(a, b); // возвратит true если a == b
 
 Вместо:
 
-```
+```java
 StringBuffer buffer = new StringBuffer();
 for (String str : strs) {
     if (str != null) {
@@ -155,7 +155,7 @@ return buffer.toString();
 
 используйте это:
 
-```
+```java
 import com.google.common.base.Joiner;
 ...
 return Joiner.on(", ").skipNulls().join(strs);
@@ -165,7 +165,7 @@ return Joiner.on(", ").skipNulls().join(strs);
 
 Вместо:
 
-```
+```java
 String str = "abc, bcd,, cde   ,zsa";
 String[] split = str.split(",");
 
@@ -174,7 +174,7 @@ String[] split = str.split(",");
 
 используйте это:
 
-```
+```java
 import com.google.common.base.Splitter;
 ...
 Splitter.on(',')
@@ -187,7 +187,7 @@ Splitter.on(',')
 
 Вместо:
 
-```
+```java
 Map< String, Integer > countMap = new HashMap< String, Integer >();
 for (String word : words) {
     if(!countMap.containsKey(word)) {
@@ -199,7 +199,7 @@ for (String word : words) {
 
 используйте это:
 
-```
+```java
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 ...
@@ -211,7 +211,7 @@ wordsMultiset.addAll(words);
 
 Вместо:
 
-```
+```java
 Map< String, List< String > > languagesMap = new HashMap< String, List< String >>();
 for (Programmer programmer : programmers) {
     if (languagesMap.get(programmer.getLanguage()) != null) {
@@ -223,7 +223,7 @@ for (Programmer programmer : programmers) {
 
 используйте это:
 
-```
+```java
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 ...

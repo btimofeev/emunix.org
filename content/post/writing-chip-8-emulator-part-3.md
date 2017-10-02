@@ -35,7 +35,7 @@ chipper ЦЕЛЬ ИСХОДНИК
 
 Первая программа будет совсем простой - мы нарисуем спрайт рыцаря в центре экрана. (Спрайт я взял вот с [этой](http://8bitcity.blogspot.com/2011/12/pixel-art-tiny-sprites.html) страницы).
 
-```
+```TASM
 OPTION BINARY
 ALIGN OFF
  
@@ -87,7 +87,7 @@ chipper sprite.c8 sprite.asm
 
 В следующей программе можно перемещать спрайт по экрану используя клавиатуру.
 
-```
+```TASM
 OPTION BINARY
 ALIGN OFF
  

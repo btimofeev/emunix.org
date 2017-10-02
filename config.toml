@@ -2,6 +2,8 @@ baseurl = "https://emunix.org/"
 languageCode = "ru"
 title = "Emunix"
 disqusShortname = "emunix"
+pygmentsCodeFences = true
+PygmentsStyle = "monokailight"
 
 [params]
     # my theme is angels-ladder

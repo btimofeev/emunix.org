@@ -183,15 +183,20 @@ article p {
   margin: 25px 0;
 }
 article code {
-  color: #333;
-  background-color: #eee;
+    font-family: consolas, monospace;
+    font-size: 13px
+}
+article p code {
+  border: 1px solid #ccc;
   padding: 0 3px;
   margin: 0 3px;
-  border: 1px solid #ccc;
-  font-family: consolas, monospace;
+  background-color: #eee;
 }
-article pre code {
-  font-family: consolas, monospace;
+article pre {
+  border: 1px solid #ccc;
+  padding: 0 3px;
+  margin: 0 3px;
+  background-color: #eee;
 }
 article blockquote {
   margin: 25px 0;
