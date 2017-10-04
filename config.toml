@@ -1,4 +1,4 @@
-baseurl = "http://emunix.org/"
+baseurl = "https://emunix.org/"
 languageCode = "ru"
 title = "Emunix"
 disqusShortname = "emunix"
