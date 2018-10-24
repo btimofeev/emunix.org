@@ -7,7 +7,7 @@ PygmentsStyle = "monokailight"
 
 [params]
     # my theme is angels-ladder
-    copyright = "© 2011-2017, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
+    copyright = "© 2011-2018, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
     twitter = "https://twitter.com/btimofeev"
     github = "https://github.com/btimofeev"
     # subtitle = "Linux, эмуляция, программирование."
