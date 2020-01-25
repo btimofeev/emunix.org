@@ -6,7 +6,7 @@ tags = [ "linux", "cli", "cd" ]
 description = "Запись cd/dvd из консоли"
 +++
 
-
+<!--more-->
 ### Запись образа на CD-R или CD-RW диск:
 `cdrecord -v -eject speed=10 dev=/dev/cdrom ~/disc.iso`
 

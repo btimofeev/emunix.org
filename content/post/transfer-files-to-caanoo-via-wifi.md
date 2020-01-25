@@ -3,12 +3,12 @@ title = "Передача файлов на Caanoo через Wi-Fi"
 date = "2012-02-02"
 slug = "transfer-files-to-caanoo-via-wifi"
 tags = [ "caanoo", "wi-fi" ]
-description = "Передача файлов на Caanoo через Wi-Fi"
+description = "В этой заметке я опишу способ передачи файлов на GPH Caanoo через Wi-Fi."
 +++
 
 В этой заметке я опишу способ передачи файлов на Caanoo через Wi-Fi.
-
-![](../../images/transfer-files-to-caanoo-via-wifi/caanoo.jpg)
+<!--more-->
+![](../../images/transfer-files-to-caanoo-via-wifi/caanoo.jpg#c)
 
 Для этого нам понадобятся:
 
@@ -18,7 +18,6 @@ description = "Передача файлов на Caanoo через Wi-Fi"
  * ssh-сервер Dropbear (скачать можно [здесь](http://zx81.zx81.free.fr/serendipity/index.php?/categories/187-DropBear))
  * любой SFTP-клиент (например [Filezilla](http://filezilla-project.org/))
 
-<!--more-->
 Для начала необходимо установить Dropbear, для этого просто разархивируем его в каталог apps на флешке консоли.
 Далее вставляем wifi-донгл в Caanoo, переходим в *Настройки => Wireless LAN*. Caanoo найдет вашу вайфай сеть и подключется к ней. Заходим в меню *Apps* и запускаем *Dropbear* (у него нет пользовательского интерфейса, так что после запуска  вы снова окажетесь в меню).
 
@@ -26,10 +25,10 @@ description = "Передача файлов на Caanoo через Wi-Fi"
 
 Теперь устанавливаем на компьютер программу Filezilla. Открываем меню *Файл => Менеджер сайтов*, в поле хост прописываем ip-адрес консоли, выбираем протокол SFTP, в поле пользователь вводим *root* и жмем кнопку соединиться.
 
-![](../../images/transfer-files-to-caanoo-via-wifi/manager.png)
+![](../../images/transfer-files-to-caanoo-via-wifi/manager.png#c)
 
 В правой панели filezilla вы увидите файлы на caanoo. Сохранять файлы нужно в директорию */mnt/sd/* - это корневой каталог нашей флешки. 
 Наконец, что бы переслать файл на Caanoo, просто выбираем его в левой панели, щелкаем по нему правой кнопкой мыши и выбираем *Закачать на сервер*.
 
-![](../../images/transfer-files-to-caanoo-via-wifi/filezilla.png)
+![](../../images/transfer-files-to-caanoo-via-wifi/filezilla.png#c)
 

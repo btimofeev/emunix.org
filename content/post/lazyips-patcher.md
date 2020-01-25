@@ -6,7 +6,7 @@ tags = [ "patcher", "linux", "emulation" ]
 description = "Lazy IPS"
 +++
 
-Сегодня за пару часов написал IPS патчер для Linux. Он основан на коде моего же патчера [pySmartIPS](http://pysmart.emu-mobi.com/).
+Сегодня за пару часов написал IPS патчер для Linux. Он основан на коде моего же патчера [pySmartIPS](http://pysmart.emu-mobi.com/).<!--more-->
 
 ![Скриншот программы](../../images/lazyips-patcher/lazyips.png)
 

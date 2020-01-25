@@ -3,7 +3,8 @@ title = "Как восстановить Windows MBR из-под Linux"
 date = "2011-11-03"
 slug = "how-to-restore-windows-mbr-from-linux"
 tags = [ "linux", "windows", "mbr", "cli" ]
-description = "Как восстановить Windows MBR из-под Linux"
+description = "Что делать если у вас слетел загрузчик Windows? Есть решение.."
+summary = "Что делать если у вас слетел загрузчик Windows? Есть решение.."
 +++
 
 Что делать если необходимо восстановить Windows Master Boot Record (MBR)? 

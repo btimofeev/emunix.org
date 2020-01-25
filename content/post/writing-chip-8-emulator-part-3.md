@@ -3,15 +3,15 @@ title = "Пишем эмулятор CHIP-8. Часть 3: Примеры про
 date = "2012-04-15"
 slug = "writing-chip-8-emulator-part-3"
 tags = [ "dev", "emulation" ]
-description = "Пишем эмулятор CHIP-8. Часть 3: Примеры программ"
+description = "В прошлой статье мы рассмотрели опкоды CHIP-8. Сегодня попробуем написать несколько простых демонстрационных программ для него."
 +++
 
 В прошлой статье мы рассмотрели опкоды CHIP-8. Сегодня попробуем написать несколько простых демонстрационных программ для него.
-
+<!--more-->
 ## Chipper
 
 Для компиляции исходного кода нам потребуется ассемблер Chipper, автором которого является Hans Christian Egeberg. Скачать можно по ссылке <http://www.hpcalc.org/hp48/pc/programming/chipper.zip>
-<!--more-->
+
 В архиве лежат 3 файла:
 
 * CHIPPER.EXE - ассемблер для DOS (возможно запустится в Windows. Если нет, то используйте [DosBox](http://www.dosbox.com/))
@@ -20,7 +20,7 @@ description = "Пишем эмулятор CHIP-8. Часть 3: Примеры 
 
 Для линукса Chipper компилируется следующей командой:
 ```
-g++ CHIPPER.C -o chipper
+gcc CHIPPER.C -o chipper
 ```
 Для Arch Linux готовый пакет лежит в [AUR](https://aur.archlinux.org/packages.php?ID=57427).
 
