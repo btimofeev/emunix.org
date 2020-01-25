@@ -1,16 +1,40 @@
 baseurl = "https://emunix.org/"
 languageCode = "ru"
+DefaultContentLanguage = "ru"
+theme = "kiss"
 title = "Emunix"
+copyright = "© 2011-2020, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
 disqusShortname = "emunix"
+googleAnalytics = "UA-28744527-1"
 pygmentsCodeFences = true
 PygmentsStyle = "monokailight"
+enableRobotsTXT = true
+   
+[params.rss]
+includeContent = false
+authorName = "Борис Тимофеев"
+authorEmail = "btimofeev@emunix.org"
 
-[params]
-    # my theme is angels-ladder
-    copyright = "© 2011-2018, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
-    twitter = "https://twitter.com/btimofeev"
-    github = "https://github.com/btimofeev"
-    # subtitle = "Linux, эмуляция, программирование."
-    # facebook = "https://facebook.com/foobar"
-    # profile = "/images/profile.png"
-    analytics = "UA-28744527-1"
+[params.info]
+# adsense = "" # Adsense ID (ID only, without ca-pub-)
+# enableSocial = true # Adds OpenGraph and Twitter cards
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.social]
+twitter = "btimofeev"
+github = "btimofeev"
+email = "btimofeev@emunix.org"
+rss = "index.xml"
+
+[params.social.config]
+platforms = ["github","twitter","email","rss"]
+
+[taxonomies]
+tag ="tags"
