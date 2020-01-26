@@ -1,6 +1,6 @@
 ---
 title: "Как подключить DualShock 4 к Android"
-date: "2020-01-26T11:03:28Z"
+date: "2020-01-26"
 description: "В этой заметке описан простой способ подключения контроллера Sony PlayStation 4 к любому телефону или планшету на Android"
 tags: ["android", "playstation"]
 slug: "how-to-connect-dualshock-to-android"
