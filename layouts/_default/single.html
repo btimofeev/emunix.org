@@ -14,13 +14,13 @@
     {{ end }}
     <div class="content">
       {{ .Content }}
+      {{ if .Site.Params.Info.adsense }}
+      {{ partial "adsense" . }}
+      {{ end }}
       {{ if .Site.Params.Info.related }}
       <div class="related">{{ partial "related" . }}</div>
       {{ end }}
     </div>
-    {{ if and (.Site.Params.Info.adsense)  (.Params.adsenseBottom) }}
-    {{ partial "adsense" . }}
-    {{ end}}
   </div>
 </section>
 {{ if (and (.Site.Params.Info.codeCopy) (findRE "<pre" .Content 1)) }}

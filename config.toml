@@ -16,7 +16,7 @@ authorName = "Борис Тимофеев"
 authorEmail = "btimofeev@emunix.org"
 
 [params.info]
-# adsense = "" # Adsense ID (ID only, without ca-pub-)
+adsense = "2445378722408015" # Adsense ID (ID only, without ca-pub-)
 # enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "Emunix" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
