@@ -4,10 +4,13 @@ date: "2020-01-26"
 description: "В этой заметке описан простой способ подключения контроллера Sony PlayStation 4 к любому телефону или планшету на Android"
 tags: ["android", "playstation"]
 slug: "how-to-connect-dualshock-to-android"
+image: https://emunix.org/images/how-to-connect-dualshock-to-android/promo.jpg
 aliases: []
 toc: false
 draft: false
 ---
+
+![Картинка для привлечения внимания](/images/how-to-connect-dualshock-to-android/promo.jpg#c)
 
 Множество android-игр и эмуляторов (таких как RetroArch) поддерживают не только управление тачпадом, но и управление с помощью геймпада, подключенного через Bluetooth. И если у вас уже есть контроллер от Sony PlayStation 4, то вы можете подключить его к телефону, вместо покупки специализированного геймпада.
 <!--more-->
