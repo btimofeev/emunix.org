@@ -1,0 +1,7 @@
+{{ .Date.Day }}
+{{ if eq .Lang "ru" }}
+  {{ index $.Site.Data.months (printf "%d" .Date.Month) }}
+{{ else }}
+  {{ .Date.Month }}
+{{ end }}
+{{ .Date.Year }}

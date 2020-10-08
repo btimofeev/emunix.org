@@ -9,6 +9,7 @@ googleAnalytics = "UA-28744527-1"
 pygmentsCodeFences = true
 PygmentsStyle = "monokailight"
 enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
    
 [params.rss]
 includeContent = false
@@ -39,3 +40,13 @@ platforms = ["github","twitter","email","rss"]
 
 [taxonomies]
 tag ="tags"
+
+[languages]
+  [languages.ru]
+    weight = 1
+  [languages.en]
+    weight = 2
+    copyright = "© 2011-2020, <a href=\"mailto:btimofeev@emunix.org\">Boris Timofeev</a>"
+    [languages.en.params.rss]
+      authorName = "Boris Timofeev"
+

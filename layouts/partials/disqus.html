@@ -3,7 +3,7 @@
   <div class="container">
     <aside><div id="disqus_thread"></div></aside>
   {{ if .Site.Params.Features.DisqusOnDemand }}
-    <div id="show_comments"><a id="load_comments" class="button is-link">Показать комментарии</a></div>
+    <div id="show_comments"><a id="load_comments" class="button is-link">{{ i18n "show_comments" }}</a></div>
   {{ end }}
     <script type="text/javascript">
       var disqus_shortname = '{{ .Site.DisqusShortname }}';
@@ -29,7 +29,7 @@
   {{ end }}
 
     </script>
-    <noscript>Пожалуйста, включите JavaScript, что бы посмотреть <a href="https://disqus.com/?ref_noscript" rel="nofollow">комментарии</a>.</noscript>
+    <noscript><a href="https://disqus.com/?ref_noscript" rel="nofollow">{{ i18n "comments_enable_java_script" }}</a></noscript>
   </div>
 </section>
 {{ end }}

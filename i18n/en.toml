@@ -1,0 +1,17 @@
+[show_comments]
+other = "Show comments"
+
+[comments_enable_java_script]
+other = "Please enable JavaScript to view comments"
+
+[prev]
+other = "Prev"
+
+[next]
+other = "Next"
+
+[related_articles]
+other = "Related articles"
+
+[read_more]
+other = "Read more"

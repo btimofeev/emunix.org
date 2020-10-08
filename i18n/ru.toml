@@ -1,0 +1,17 @@
+[show_comments]
+other = "Показать комментарии"
+
+[comments_enable_java_script]
+other = "Пожалуйста, включите JavaScript, чтобы посмотреть комментарии"
+
+[prev]
+other = "Сюда"
+
+[next]
+other = "Туда"
+
+[related_articles]
+other = "Похожие статьи"
+
+[read_more]
+other = "Читать дальше"
