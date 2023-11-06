@@ -36,7 +36,7 @@ email = "btimofeev@emunix.org"
 rss = "index.xml"
 
 [params.social.config]
-platforms = ["github","twitter","email","rss"]
+platforms = ["github","email","rss"]
 
 [taxonomies]
 tag ="tags"
