@@ -1,15 +1,23 @@
 +++
-title = "Lazy IPS"
-date = "2012-02-19"
+title = "Lazy IPS - небольшой IPS патчер для Linux"
+date = "2023-11-06"
 slug = "lazyips-patcher"
 tags = [ "patcher", "linux", "emulation" ]
-description = "Lazy IPS"
+description = "Lazy IPS - небольшой IPS патчер для Linux"
 +++
 
-Сегодня за пару часов написал IPS патчер для Linux. Он основан на коде моего же патчера [pySmartIPS](http://pysmart.emu-mobi.com/).<!--more-->
+*Оригинальная заметка была написана в 2012 году, но потеряла актуальность, поэтому обновляю.*
 
-![Скриншот программы](../../images/lazyips-patcher/lazyips.png)
+<!--more-->
 
-Скачать можно по ссылке [LazyIPS](http://goo.gl/0kcmr). Пакет для Arch Linux доступен в [AUR](https://aur.archlinux.org/packages.php?ID=56857).
+![Скриншот программы](https://github.com/btimofeev/lazy_ips/raw/master/img/screenshot.png#c)
 
-Зависимости: *Python 2* и *pygtk*.
+Когда-то давно я написал программу для Symbian-телефонов применяющую патчи в формате IPS к ROM-файлам игр. Называлась она _pySmartIPS_ и была написана на Python 2.
+
+В 2012 году на основе ее кода я сделал графическую утилиту _lazy-ips_ для линукса с использованием GTK2.
+
+Еще через несколько лет мне начали присылать пулл реквесты: программу портировали на Python 3 и добавили возможность применять патчи из консоли, без запуска графического интерфейса. Также я добавил поддержку установки через setup.py
+
+Скачать программу можно по адресу https://github.com/btimofeev/lazy_ips 
+
+Для Arch Linux существует пакет в [AUR](https://aur.archlinux.org/packages/lazy-ips)
