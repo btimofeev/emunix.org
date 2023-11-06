@@ -1,0 +1,15 @@
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: "Source Code Pro", "PT Mono", monospace;
+  line-height: 1.25;
+}

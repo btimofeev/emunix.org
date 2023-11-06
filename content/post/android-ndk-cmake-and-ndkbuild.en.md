@@ -1,5 +1,5 @@
 ---
-title: "Andriod NDK: How to use CMake and ndk-build together in one project"
+title: "Android NDK: How to use CMake and ndk-build together in one project"
 date: "2020-10-08T19:15:30+03:00"
 description: "Android NDK currently provides us with at least two ways to build native libraries: CMake and ndk-build. But if you specify two paths to the build scripts CMakeLists.txt and Android.mk in the build.gradle file, then Gradle will show an error 'More than one externalNativeBuild path specified' and will not compile anything. I will show one of the possible ways to solve this problem."
 summary: "Android NDK currently provides us with at least two ways to build native libraries: CMake and ndk-build. But if you specify two paths to the build scripts CMakeLists.txt and Android.mk in the build.gradle file, then Gradle will show an error 'More than one externalNativeBuild path specified' and will not compile anything. I will show one of the possible ways to solve this problem."

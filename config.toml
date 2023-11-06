@@ -3,7 +3,7 @@ languageCode = "ru"
 DefaultContentLanguage = "ru"
 theme = "kiss"
 title = "Emunix"
-copyright = "© 2011-2020, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
+copyright = "© 2011-2023, <a href=\"mailto:btimofeev@emunix.org\">Борис Тимофеев</a>"
 disqusShortname = "emunix"
 googleAnalytics = "UA-28744527-1"
 pygmentsCodeFences = true
@@ -46,7 +46,7 @@ tag ="tags"
     weight = 1
   [languages.en]
     weight = 2
-    copyright = "© 2011-2020, <a href=\"mailto:btimofeev@emunix.org\">Boris Timofeev</a>"
+    copyright = "© 2011-2023, <a href=\"mailto:btimofeev@emunix.org\">Boris Timofeev</a>"
     [languages.en.params.rss]
       authorName = "Boris Timofeev"
 
